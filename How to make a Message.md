@@ -1,6 +1,9 @@
-# Title
-## Subtitel
+Create a new file with the title of the message, such as: 'This is a title.md'. 
+
+Add the content to the file. 
 
 Using ["Markdown"](https://www.markdownguide.org/) it's possible to create messages. As long as the files in the public repository end with `.md` the messages will be picked up in this page.
 
-It's also possible to include images !["images"](https://i.pinimg.com/564x/9c/59/71/9c5971c514828831d1797957f1975331.jpg) such as this one in text.
+It's also possible to include images !["images"](https://picsum.photos/200) such as this one in text.
+
+After creating the file with content, add the file to your git repository (`git add .`, commit the new message `git commit -am "Added a new message"` and push the changes `git push`). The message will be available right away.
